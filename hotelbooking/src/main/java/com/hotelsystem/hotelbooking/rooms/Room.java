@@ -39,6 +39,5 @@ public class Room {
 
     private Boolean hasAC = false;
 
-    @Column(columnDefinition = "VARCHAR(20) DEFAULT 'AVAILABLE'")
     private String status = "AVAILABLE";
 }
